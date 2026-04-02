@@ -76,9 +76,6 @@ git clone https://github.com/ayushgirulkar/Extension_Simpler.git
 
 ---
 
-## 📸 Screenshots
-
-*Add screenshots here (recommended for better presentation)*
 
 ---
 
