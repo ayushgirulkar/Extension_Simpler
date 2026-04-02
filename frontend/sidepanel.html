@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simpler: AI Reading Assistant</title>
+  <link rel="stylesheet" href="sidepanel.css">
+</head>
+<body>
+
+  <div class="container">
+
+   <!-- HEADER -->
+   <div class="header">
+     <div class="logo">
+       <img src="logo1.png" alt="Simpler Logo">
+     </div>
+     <div class="title-box">
+       <h2>Simpler</h2>
+       <p class="subtitle">AI Reading Assistant</p>
+     </div>
+   </div>
+
+   <!-- 🔥 NEW: LANGUAGE DROPDOWN -->
+   <div class="language-select">
+     <select id="language">
+       <option value="">🌐 Translate into...</option>
+       <option value="Hindi">Hindi</option>
+       <option value="Marathi">Marathi</option>
+     </select>
+   </div>
+
+   <!-- ACTIONS -->
+   <div class="actions">
+     <button id="summarize-btn" class="primary-btn">
+       ⚡ Summarize
+     </button>
+
+     <button id="synonym-btn" class="secondary-action-btn">
+       🔤 Synonyms
+     </button>
+   </div>
+
+   <!-- RESULTS -->
+   <div class="results" id="result">
+     <p class="placeholder">Your summary will appear here...</p>
+   </div>
+
+   <!-- NOTES -->
+   <div class="notes">
+     <div class="notes-header">
+       <h3>📝 Notes</h3>
+       <button id="save-notes-btn" class="secondary-btn">💾 Save</button>
+     </div>
+
+     <textarea 
+       id="notes" 
+       placeholder="Write your important notes here..."
+     ></textarea>
+   </div>
+
+   <!-- FOOTER -->
+   <div class="footer">
+     <p>Build by Ayush Girulkar</p>
+   </div>
+
+  </div>
+
+  <script src="sidepanel.js"></script>
+</body>
+</html>

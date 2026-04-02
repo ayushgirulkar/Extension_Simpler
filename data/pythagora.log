@@ -1,0 +1,85 @@
+2026-03-21T06:43:51.610Z INFO Is remote: false
+2026-03-21T06:43:51.612Z INFO Starting Local. Installation path: undefined
+2026-03-21T06:43:51.613Z INFO [MainProvider] Creating new MainProvider instance...
+2026-03-21T06:43:51.614Z INFO [TabsManager] Code view listener set up at initialization
+2026-03-21T06:43:51.615Z INFO Installation path exists: d:\extension maker\frontend
+2026-03-21T06:43:51.616Z INFO Initializing database with URL: file:C:\Users\dell\AppData\Local\Temp\pythagora-temp\pythagora.db
+2026-03-21T06:43:51.619Z INFO Database file exists, skipping prisma generate/push for faster startup
+2026-03-21T06:43:51.620Z INFO Database initialized successfully
+2026-03-21T06:43:51.621Z INFO [Migration] Checking for database migration...
+2026-03-21T06:43:52.274Z INFO [Migration] No migration needed
+2026-03-21T07:17:44.583Z INFO [TabsManager] First file opened, triggering split view
+2026-03-21T07:17:44.589Z INFO [MainProvider] First file opened, creating split view
+2026-03-21T07:19:06.214Z INFO [TabsManager] First file opened, triggering split view
+2026-03-21T07:19:06.215Z INFO [MainProvider] First file opened, creating split view
+2026-03-21T07:20:10.543Z INFO [TabsManager] First file opened, triggering split view
+2026-03-21T07:20:10.545Z INFO [MainProvider] First file opened, creating split view
+2026-03-21T07:31:27.719Z INFO [TabsManager] First file opened, triggering split view
+2026-03-21T07:31:27.722Z INFO [MainProvider] First file opened, creating split view
+2026-03-21T08:03:07.146Z INFO [TabsManager] First file opened, triggering split view
+2026-03-21T08:03:07.148Z INFO [MainProvider] First file opened, creating split view
+2026-03-21T08:03:28.417Z INFO [TabsManager] First file opened, triggering split view
+2026-03-21T08:03:28.420Z INFO [MainProvider] First file opened, creating split view
+2026-03-21T08:03:39.627Z INFO [TabsManager] First file opened, triggering split view
+2026-03-21T08:03:39.629Z INFO [MainProvider] First file opened, creating split view
+2026-03-21T18:58:08.340Z INFO Closing entire Pythagora extension...
+2026-03-21T18:58:08.754Z ERROR Error closing extension
+Error: Canceled
+Stack: Canceled: Canceled
+	at new bI (file:///c:/Users/dell/AppData/Local/Programs/Microsoft%20VS%20Code/07ff9d6178/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:407:148227)
+	at r._remoteCall (file:///c:/Users/dell/AppData/Local/Programs/Microsoft%20VS%20Code/07ff9d6178/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:407:154279)
+	at i.<computed>.s.charCodeAt.i.<computed> (file:///c:/Users/dell/AppData/Local/Programs/Microsoft%20VS%20Code/07ff9d6178/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:407:151074)
+	at dg._doExecuteCommand (file:///c:/Users/dell/AppData/Local/Programs/Microsoft%20VS%20Code/07ff9d6178/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:494:48120)
+	at dg.executeCommand (file:///c:/Users/dell/AppData/Local/Programs/Microsoft%20VS%20Code/07ff9d6178/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:494:47567)
+	at Object.executeCommand (file:///c:/Users/dell/AppData/Local/Programs/Microsoft%20VS%20Code/07ff9d6178/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:618:135323)
+	at closeEntirePythagoraExtension (c:\Users\dell\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.6.19\out\extension.js:542:31)
+	at Object.deactivate (c:\Users\dell\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.6.19\out\extension.js:409:15)
+	at hk._deactivate (file:///c:/Users/dell/AppData/Local/Programs/Microsoft%20VS%20Code/07ff9d6178/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:498:14479)
+	at file:///c:/Users/dell/AppData/Local/Programs/Microsoft%20VS%20Code/07ff9d6178/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:498:12006
+	at Array.map (<anonymous>)
+	at hk._deactivateAll (file:///c:/Users/dell/AppData/Local/Programs/Microsoft%20VS%20Code/07ff9d6178/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:498:11994)
+	at hk.terminate (file:///c:/Users/dell/AppData/Local/Programs/Microsoft%20VS%20Code/07ff9d6178/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:498:12345)
+	at r.terminate (file:///c:/Users/dell/AppData/Local/Programs/Microsoft%20VS%20Code/07ff9d6178/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:500:1072)
+	at Us (file:///c:/Users/dell/AppData/Local/Programs/Microsoft%20VS%20Code/07ff9d6178/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:810:11700)
+	at MessagePortMain.<anonymous> (file:///c:/Users/dell/AppData/Local/Programs/Microsoft%20VS%20Code/07ff9d6178/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:810:8122)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2959)
+	at Object.callbackTrampoline (node:internal/async_hooks:130:17)
+Extra context: {
+  "message": "Canceled"
+}
+2026-03-22T05:19:39.383Z INFO Is remote: false
+2026-03-22T05:19:39.386Z INFO Starting Local. Installation path: undefined
+2026-03-22T05:19:39.387Z INFO [MainProvider] Creating new MainProvider instance...
+2026-03-22T05:19:39.389Z INFO [TabsManager] Code view listener set up at initialization
+2026-03-22T05:19:39.391Z INFO Installation path exists: d:\extension maker\frontend
+2026-03-22T05:19:39.392Z INFO Initializing database with URL: file:C:\Users\dell\AppData\Local\Temp\pythagora-temp\pythagora.db
+2026-03-22T05:19:39.401Z INFO Database file exists, skipping prisma generate/push for faster startup
+2026-03-22T05:19:39.402Z INFO Database initialized successfully
+2026-03-22T05:19:39.403Z INFO [Migration] Checking for database migration...
+2026-03-22T05:19:40.124Z INFO [Migration] No migration needed
+2026-03-22T05:19:45.644Z INFO Closing entire Pythagora extension...
+2026-03-22T05:19:45.654Z ERROR Error closing extension
+Error: Canceled
+Stack: Canceled: Canceled
+	at new bI (file:///c:/Users/dell/AppData/Local/Programs/Microsoft%20VS%20Code/07ff9d6178/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:407:148227)
+	at r._remoteCall (file:///c:/Users/dell/AppData/Local/Programs/Microsoft%20VS%20Code/07ff9d6178/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:407:154279)
+	at i.<computed>.s.charCodeAt.i.<computed> (file:///c:/Users/dell/AppData/Local/Programs/Microsoft%20VS%20Code/07ff9d6178/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:407:151074)
+	at dg._doExecuteCommand (file:///c:/Users/dell/AppData/Local/Programs/Microsoft%20VS%20Code/07ff9d6178/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:494:48120)
+	at dg.executeCommand (file:///c:/Users/dell/AppData/Local/Programs/Microsoft%20VS%20Code/07ff9d6178/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:494:47567)
+	at Object.executeCommand (file:///c:/Users/dell/AppData/Local/Programs/Microsoft%20VS%20Code/07ff9d6178/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:618:135323)
+	at closeEntirePythagoraExtension (c:\Users\dell\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.6.19\out\extension.js:542:31)
+	at Object.deactivate (c:\Users\dell\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.6.19\out\extension.js:409:15)
+	at hk._deactivate (file:///c:/Users/dell/AppData/Local/Programs/Microsoft%20VS%20Code/07ff9d6178/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:498:14479)
+	at file:///c:/Users/dell/AppData/Local/Programs/Microsoft%20VS%20Code/07ff9d6178/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:498:12006
+	at Array.map (<anonymous>)
+	at hk._deactivateAll (file:///c:/Users/dell/AppData/Local/Programs/Microsoft%20VS%20Code/07ff9d6178/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:498:11994)
+	at hk.terminate (file:///c:/Users/dell/AppData/Local/Programs/Microsoft%20VS%20Code/07ff9d6178/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:498:12345)
+	at r.terminate (file:///c:/Users/dell/AppData/Local/Programs/Microsoft%20VS%20Code/07ff9d6178/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:500:1072)
+	at Us (file:///c:/Users/dell/AppData/Local/Programs/Microsoft%20VS%20Code/07ff9d6178/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:810:11700)
+	at MessagePortMain.<anonymous> (file:///c:/Users/dell/AppData/Local/Programs/Microsoft%20VS%20Code/07ff9d6178/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:810:8122)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2959)
+Extra context: {
+  "message": "Canceled"
+}

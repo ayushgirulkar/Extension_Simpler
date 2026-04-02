@@ -1,0 +1,33 @@
+{
+  "name": "Simpler: AI Reading Assistant",
+  "description": "Decode complex text with Simpler's intelligent reading tools: Paragraph Summarizer, Complex Word Simplifier,and more!--Ayush Girulkar",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "activeTab",
+    "storage",
+    "sidePanel",
+    "scripting"
+  ],
+  "icons": {
+    "128": "icon16.png"
+  },
+  "action": {
+    "default_title": "AI Reading Assistant",
+    "default_icon": "icon16.png"
+  },
+  "side_panel": {
+    "default_path": "sidepanel.html",
+    "default_icon": "icon16.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "http://localhost:8000/*",
+    "<all_urls>"
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  }
+}
